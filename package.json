@@ -1,0 +1,30 @@
+{
+  "name": "ansi-canvas-render",
+  "version": "1.0.0",
+  "description": "Renders a <canvas> instance to the specified Writable stream",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/TooTallNate/ansi-canvas-render.git"
+  },
+  "keywords": [
+    "ansi",
+    "canvas",
+    "render",
+    "terminal",
+    "stdout",
+    "colors"
+  ],
+  "author": "Nathan Rajlich <n@n8.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TooTallNate/ansi-canvas-render/issues"
+  },
+  "homepage": "https://github.com/TooTallNate/ansi-canvas-render#readme",
+  "dependencies": {
+    "ansi": "^0.3.1"
+  }
+}
