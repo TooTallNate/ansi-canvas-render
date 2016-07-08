@@ -1,6 +1,6 @@
 {
   "name": "ansi-canvas-render",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Renders a <canvas> instance to a Writable stream with ANSI codes",
   "main": "index.js",
   "scripts": {
