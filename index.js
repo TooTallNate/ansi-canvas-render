@@ -116,12 +116,10 @@ function render (canvas, opts) {
     if (small) y++;
 
     // beginning of the row
+    cursor.fg.reset();
     cursor.bg.reset();
     cursor.write('\n');
   }
-
-  cursor.fg.reset();
-  cursor.bg.reset();
 
   cursor.flush();
 }
